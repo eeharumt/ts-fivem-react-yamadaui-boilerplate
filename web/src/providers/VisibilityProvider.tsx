@@ -3,9 +3,7 @@ import { useNuiEvent } from "../hooks/useNuiEvent";
 import { fetchNui } from "../utils/fetchNui";
 import { isEnvBrowser } from "../utils/misc";
 
-
 const VisibilityCtx = createContext<VisibilityProviderValue | null>(null);
-
 
 interface VisibilityProviderValue {
   setVisible: (visible: boolean) => void;
@@ -14,16 +12,17 @@ interface VisibilityProviderValue {
 
 export const VisibilityProvider: React.FC<{
   children: React.ReactNode;
-  componentName: string; 
+  componentName: string;
 }> = ({ children, componentName }) => {
   const [visible, setVisible] = useState(false);
-  
+
   useNuiEvent<boolean>(`setVisible${componentName}`, setVisible);
 
   useEffect(() => {
     const keyHandler = (e: KeyboardEvent) => {
       if (visible && e.code === "Escape") {
-        if (!isEnvBrowser()) fetchNui("hideFrame", { name: `setVisible${componentName}` });
+        if (!isEnvBrowser())
+          fetchNui("hideFrame", { name: `setVisible${componentName}` });
         else setVisible(false);
       }
     };

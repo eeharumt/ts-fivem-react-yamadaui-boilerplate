@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/components/App.tsx","./src/hooks/useNuiEvent.ts","./src/providers/VisibilityProvider.tsx","./src/utils/DataforDebug.ts","./src/utils/fetchNui.ts","./src/utils/misc.ts"],"version":"5.6.2"}
