@@ -1,14 +1,14 @@
-# TS FiveM React TS Mantine Boilerplate
+# FiveM React TS Yamada UI Boilerplate
 
-This is a boilerplate for creating React applications using TypeScript and Mantine V6. If you prefer to use Mantine V7, you can change the package version accordingly.
+This is a boilerplate for creating React applications using TypeScript and Yamada UI.
 
 ## Getting Started
 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Thomasdev18/ts-fivem-react-mantine-boilerplate.git
-   cd ts-fivem-react-mantine-boilerplate
+   git clone https://github.com/eeharumt/ts-fivem-react-yamadaui-boilerplate.git
+   cd ts-fivem-react-yamadaui-boilerplate
    ```
 
 2. **Install the dependencies**:
@@ -203,13 +203,10 @@ end
 
 The `action` should contain `setVisible` and the component name defined in `main.tsx` to properly control the visibility of your UI components from the client side. The action could also be a action to trigger a nui event in the frontend using `useNuiEvent.ts`
 
-## Contributing
-
-Feel free to contribute to this project by opening issues or submitting pull requests.
-
 ## License
 
 This project is licensed under the GPL V3 License.
 
 ## Credits
-Credits to Marttins | MT-Scripts for some inspo on the VisibilityProvider.
+
+This project is based on Thomasdev18's [TS FiveM React TS Mantine Boilerplate](https://github.com/Thomasdev18/ts-fivem-react-mantine-boilerplate). Many thanks for sharing such a great project.
