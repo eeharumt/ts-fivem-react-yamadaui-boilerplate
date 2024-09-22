@@ -33,9 +33,7 @@ export const VisibilityProvider: React.FC<{
 
   return (
     <VisibilityCtx.Provider value={{ visible, setVisible }}>
-      <div style={{ visibility: visible ? "visible" : "hidden" }}>
-        {children}
-      </div>
+      {visible && children}
     </VisibilityCtx.Provider>
   );
 };
