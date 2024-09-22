@@ -209,4 +209,4 @@ This project is licensed under the GPL V3 License.
 
 ## Credits
 
-This project is based on Thomasdev18's [TS FiveM React TS Mantine Boilerplate](https://github.com/Thomasdev18/ts-fivem-react-mantine-boilerplate). Many thanks for sharing such a great project.
+This project builds on the excellent work of Thomasdev18's [TS FiveM React TS Mantine Boilerplate](https://github.com/Thomasdev18/ts-fivem-react-mantine-boilerplate) and the [YamadaUI](https://github.com/yamada-ui/yamada-ui) library. Many thanks to both for sharing such great projects.
