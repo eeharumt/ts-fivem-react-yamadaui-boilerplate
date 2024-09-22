@@ -1,6 +1,6 @@
 fx_version 'cerulean'
-description 'TS FiveM React TS Mantine Boilerplate'
-author 'Thomas | TS Scripts'
+description 'TS FiveM React TS YamadaUI Boilerplate'
+author 'eeharumt'
 lua54 'yes'
 game 'gta5'
 
@@ -20,7 +20,7 @@ server_scripts {
 ui_page 'web/build/index.html'
 
 files {
-	'web/build/index.html',
-	'web/build/**/*',
+    'web/build/index.html',
+    'web/build/**/*',
     'web/assets/**/*',
 }
